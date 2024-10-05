@@ -2,6 +2,27 @@
 Changelog for package naoqi_bridge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.7 (2018-02-15)
+------------------
+* delete msg because it can be replaced by std_srvs/SetBool.srv (`#36 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/36>`_)
+* delete srv file because it can be replaced by `#37 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/37>`_ (`#39 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/39>`_)
+* add get/set string srv files (`#38 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/38>`_)
+* Merge pull request `#37 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/37>`_ from kochigami/add-get-set-float-srv
+  add get/ set float service
+* add get/ set float service
+* cleanup package.xml
+* Contributors: Kanae Kochigami, Karsten Knese, Natalia Lyubova
+
+0.0.6 (2016-11-08)
+------------------
+* Merge pull request `#29 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/29>`_ from kochigami/rename-tactile-touch
+  [msg] rename TactileTouch to HeadTouch
+* [msg] rename TactileTouch to HeadTouch
+* Merge pull request `#21 <https://github.com/ros-naoqi/naoqi_bridge_msgs/issues/21>`_ from kochigami/add-msg-and-srv-for-naoqi-sound-localization
+  add srv and msg for naoqi_apps/launch/soundLocalization.launch
+* add srv and msg for naoqi_apps/launch/soundLocalization.launch
+* Contributors: Kanae Kochigami, Karsten Knese, Natalia Lyubova
+
 0.0.5 (2015-11-15)
 ------------------
 * add orthogonal / tangential security distance service files
